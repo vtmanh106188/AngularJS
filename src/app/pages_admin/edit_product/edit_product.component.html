@@ -1,0 +1,105 @@
+<ul id="nav-info" class="clearfix">
+  <li>
+    <a href="index.html"><i class="fa fa-home"></i></a>
+  </li>
+  <li class="active"><a href="">Sửa Sản Phẩm</a></li>
+</ul>
+<!-- END Navigation info -->
+
+<!-- Nav Dash -->
+<h3 class="page-header">
+  Sửa Sản Phẩm<small><code></code> <code></code></small>
+</h3>
+<form
+  class="form-horizontal form-box"
+  (ngSubmit)="onSubmit(addForm)"
+  #addForm="ngForm"
+>
+  <div class="form-box-content">
+    <!-- Input Sizes -->
+    <div class="form-group">
+      <label class="control-label col-md-2" for="example-input-grid1"
+        >Tên sản phẩm</label
+      >
+      <div class="col-md-4">
+        <input
+          type="text"
+          [(ngModel)]="addItem.name"
+          name="name"
+          class="form-control"
+          required=""
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-md-2" for="example-input-grid1"
+        >Giá sản phẩm</label
+      >
+      <div class="col-md-4">
+        <input
+          type="number"
+          [(ngModel)]="addItem.price"
+          name="price"
+          class="form-control"
+          required=""
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-md-2" for="example-input-grid1"
+        >Loại sản phẩm</label
+      >
+      <div class="col-md-4">
+        <select class="form-control" [(ngModel)]="addItem.cat_id" name="cat_id" #device (change)="onChange($event, device.value)">
+          <option *ngFor="let cat of category" value="{{cat.id}}">{{cat.name}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-md-2" for="example-input-grid1"
+        >Mô tả</label
+      >
+      <div class="col-md-4">
+        <textarea
+          [(ngModel)]="addItem.detail"
+          name="detail"
+          class="form-control"
+          rows="10"
+          required=""
+        ></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-box-content">
+        <div class="form-group">
+          <label class="control-label col-md-2" for="example-file"
+            >Hình ảnh</label
+          >
+          <div class="col-md-4">
+            <input
+              type="text"
+              [(ngModel)]="addItem.image"
+              name="image"
+              class="form-control"
+              required=""
+            />
+          </div>
+          <input
+              type="hidden"
+              [(ngModel)]="addItem.id"
+              name="id"
+              required=""
+            />
+        </div>
+      </div>
+    </div>
+
+    <!-- END Input Sizes -->
+    <div class="form-group form-actions">
+      <div class="col-md-10 col-md-offset-2">
+        <button class="btn btn-success" type="submit">Lưu</button>
+        <input type="button" class="btn btn-danger" value="Hủy" />
+      </div>
+    </div>
+  </div>
+</form>

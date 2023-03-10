@@ -1,0 +1,59 @@
+
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('../../../assets/images/bg_2.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="index.html">Home</a></span>
+          <span class="mr-2"><a href="index.html">Product</a></span>
+          <span>Product Single</span>
+        </p>
+        <h1 class="mb-0 bread">Product Single</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mb-5">
+        <a href="../../../assets/images/{{products.image}}" class="image-popup"
+          ><img
+            src="../../../assets/images/{{products.image}}"
+            class="img-fluid"
+            alt="Colorlib Template"
+        /></a>
+      </div>
+      <div class="col-lg-6 product-details pl-md-5">
+        <h2>{{products.name}}</h2>
+        <h4><span>Loại: </span>{{detailProduct.class.name}}</h4>
+
+        <p class="price"><span>${{products.price}}</span></p>
+        <p>
+          {{products.detail}}
+        </p>
+        <div class="btn-group d-flex text-center">
+          <label>Quantity:</label>
+          <button (click)="decrease()"> - </button>
+            {{ quantity }}
+          <button (click)="increase()"> + </button>
+        </div>
+        <p><a href="" class="btn btn-black py-3 px-5 mt-2">Add to Cart</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  button{
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -8px;
+  }
+</style>

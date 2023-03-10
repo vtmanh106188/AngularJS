@@ -1,0 +1,282 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Trái Cây"
+    },
+    {
+      "id": 2,
+      "name": "Rau Xanh"
+    },
+    {
+      "id": 3,
+      "name": "Nước Ép"
+    },
+    {
+      "id": 4,
+      "name": "Hạt Khô"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nameProduct": "Ớt Chuông",
+      "priceProduct": "80",
+      "imageProduct": "product-1.jpg",
+      "detail": "Ớt Chuông Nè",
+      "cat_id": 2
+      
+    },
+    {
+      "id": 2,
+      "nameProduct": "Ớt Chuông",
+      "priceProduct": "80",
+      "imageProduct": "product-1.jpg",
+      "detail": "Ớt Chuông Nè",
+      "cat_id": 2
+      
+    },
+    {
+      "id": 3,
+      "nameProduct": "Ớt Chuông",
+      "priceProduct": "80",
+      "imageProduct": "product-1.jpg",
+      "detail": "Ớt Chuông Nè",
+      "cat_id": 2
+      
+    },
+    {
+      "id": 4,
+      "nameProduct": "Ớt Chuông",
+      "priceProduct": "80",
+      "imageProduct": "product-1.jpg",
+      "detail": "Ớt Chuông Nè",
+      "cat_id": 2
+      
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Vũ Thế Mạnh",
+      "customer_address": "25 Phạm Văn Đồng, Thủ Đức",
+      "customer_email": "vtmanh106188@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-09-12",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "id": 2,
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "15 Lê Quang Định, Gò Vấp",
+      "customer_email": "vtd@gmail.com",
+      "customer_phone": "0123456789",
+      "create_date": "2022-09-13",
+      "status": "Đặt hàng thành công"
+    },
+    {
+      "id": 3,
+      "customer_name": "Vũ Tiến Năm",
+      "customer_address": "5 Kha Vạn Cân, Thủ Đức",
+      "customer_email": "vtn@gmail.com",
+      "customer_phone": "0987654321",
+      "create_date": "2022-09-17",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "id": 4,
+      "customer_name": "Nguyễn Thị Tám",
+      "customer_address": "35 Nguyễn Kiệm, Tân Bình",
+      "customer_email": "ntt@gmail.com",
+      "customer_phone": "0878965432",
+      "create_date": "2022-09-19",
+      "status": "Đặt hàng thành công"
+    },
+    {
+      "id": 5,
+      "customer_name": "Phạm Thị Hồng Ánh",
+      "customer_address": "72 Nguyễn Xí, Bình Thạnh",
+      "customer_email": "ptha@gmail.com",
+      "customer_phone": "0121212121",
+      "create_date": "2022-09-22",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "customer_name": "Vũ Mạnh",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vtmanh106188@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 6
+    },
+    {
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vtd@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 7
+    },
+    {
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vadas@gmail.com",
+      "customer_phone": "057548855",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 8
+    },
+    {
+      "customer_name": "Nguyễn Văn Tèo",
+      "customer_address": "Nhà Bè",
+      "customer_email": "teotony@gmail.com",
+      "customer_phone": "0123456789",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 9
+    },
+    {
+      "customer_name": "Vũ Tèo",
+      "customer_address": "Bình Dương",
+      "customer_email": "vumanh188@gmail.com",
+      "customer_phone": "01215144161",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 10
+    },
+    {
+      "customer_name": "Minh Phúc",
+      "customer_address": "Quận 7",
+      "customer_email": "phuc@gmail.com",
+      "customer_phone": "0123456987",
+      "create_date": "2022-10-19",
+      "status": "Chờ xác nhận",
+      "id": 11
+    }
+  ],
+  "order_detail": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unti_price": 43980000
+    },
+    {
+      "id": 3,
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 1,
+      "unti_price": 4490000
+    },
+    {
+      "id": 4,
+      "order_id": 3,
+      "product_id": 4,
+      "quantity": 3,
+      "unti_price": 16170000
+    },
+    {
+      "id": 5,
+      "order_id": 4,
+      "product_id": 5,
+      "quantity": 2,
+      "unti_price": 16380000
+    },
+    {
+      "id": 6,
+      "order_id": 5,
+      "product_id": 6,
+      "quantity": 1,
+      "unti_price": 24690000
+    },
+    {
+      "order_id": 7,
+      "product_id": 8,
+      "quantity": 1,
+      "unti_price": 25990000,
+      "id": 7
+    },
+    {
+      "order_id": 7,
+      "product_id": 14,
+      "quantity": 1,
+      "unti_price": 4490000,
+      "id": 8
+    },
+    {
+      "order_id": 8,
+      "product_id": 8,
+      "quantity": 1,
+      "unti_price": 25990000,
+      "id": 9
+    },
+    {
+      "order_id": 9,
+      "product_id": 8,
+      "quantity": 2,
+      "unti_price": 25990000,
+      "id": 10
+    },
+    {
+      "order_id": 10,
+      "product_id": 3,
+      "quantity": 2,
+      "unti_price": 4490000,
+      "id": 11
+    },
+    {
+      "order_id": 11,
+      "product_id": 3,
+      "quantity": 1,
+      "unti_price": 4490000,
+      "id": 12
+    },
+    {
+      "order_id": 11,
+      "product_id": 4,
+      "quantity": 2,
+      "unti_price": 20990000,
+      "id": 13
+    },
+    {
+      "order_id": 11,
+      "product_id": 11,
+      "quantity": 2,
+      "unti_price": 5690000,
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "vuthemanh18895hp@gmail.com",
+      "password": "vtm188106",
+      "name_users": "Vũ Thế Mạnh",
+      "phone": "0879516481"
+    },
+    {
+      "email": "vtmanh106188@gmail.com",
+      "password": "180895100696",
+      "name_users": "Mạnh Vũ",
+      "phone": "0934348481",
+      "id": 2
+    },
+    {
+      "email": "ptha@gmail.com",
+      "password": "honganh123",
+      "name_users": "Hồng Ánh",
+      "phone": "0945291577",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "email": "vuthemanh18895hp@gmail.com",
+      "password": "vtm188106",
+      "name_users": "Vũ Thế Mạnh",
+      "phone": "0879516481"
+    }
+  ]
+}

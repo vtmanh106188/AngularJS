@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="logo">
+      <img src="https://e7.pngegg.com/pngimages/203/692/png-clipart-login-computer-icons-login-s-blue-text.png" alt="">
+  </div>
+  <div class="text-center mt-4 name">
+      Đăng Ký
+  </div>
+  <form class="p-3 mt-3" (ngSubmit)="onRegister()">
+      <div class="form-field d-flex align-items-center">
+          <span class="far fa-user"></span>
+          <input type="text" name="email" [(ngModel)]="user.email" placeholder="Email" required>
+      </div>
+      <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="password" name="password" [(ngModel)]="user.password" placeholder="Password" required>
+      </div>
+      <div class="form-field d-flex align-items-center">
+        <span class="fas fa-key"></span>
+        <input type="password" name="re_password" [(ngModel)]="user.re_password" placeholder="Password Again" required>
+      </div>
+      <button class="btn mt-3" type="submit">Đăng Ký</button>
+  </form>
+  <div class="text-center fs-6">
+      <a href="">Quên mật khẩu?</a> --- <a href="/login">Đăng Nhập</a>
+  </div>
+  <div class="text-center fs-6">
+      <a href="/">TRANG CHỦ</a> 
+  </div>
+</div>
